@@ -30,7 +30,7 @@ const ItemList = ({ category }) => {
         switch (query) {
           case "haeundae":
             response = await axios.get(
-              "http://apis.data.go.kr/3330000/HeaundaeTourAttrInfoService/getTourAttrList?serviceKey=5I8gFkgEEZq%2FHx%2BJ7gcp%2FHjdj%2BNJuyPEbsuUiXGINYc7onaqfXdpBQ2hQT8EJdA9c0I7JN56jDKVIcZk0xWezw%3D%3D&pageNo=1&numOfRows=10&resultType=json"
+              "https://apis.data.go.kr/3330000/HeaundaeTourAttrInfoService/getTourAttrList?serviceKey=5I8gFkgEEZq%2FHx%2BJ7gcp%2FHjdj%2BNJuyPEbsuUiXGINYc7onaqfXdpBQ2hQT8EJdA9c0I7JN56jDKVIcZk0xWezw%3D%3D&pageNo=1&numOfRows=10&resultType=json"
             );
 
             console.log(response.data.getTourAttrList.item);
