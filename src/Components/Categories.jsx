@@ -26,14 +26,14 @@ const Category = styled(NavLink)`
   color: inherit;
   padding-bottom: 0.2rem;
   &.hover {
-    color: #495057;
+    color: #0462c0;
   }
   &.active {
     font-weight: 600;
-    border-bottom: 2px solid #22b8cf;
-    color: #22b8cf;
+    border-bottom: 2px solid #27b41a;
+    color: #27b41a;
     &:hover {
-      color: #3bc9db;
+      color: #f51515;
     }
   }
   & + & {
